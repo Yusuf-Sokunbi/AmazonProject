@@ -1,4 +1,4 @@
-const products = [{
+ export const products = [{
   id: 'a01',
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
@@ -279,3 +279,6 @@ priceCent: 3550
 priceCent: 4550
 }
 ];
+
+
+

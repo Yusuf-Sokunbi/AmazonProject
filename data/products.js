@@ -1,4 +1,5 @@
 const products = [{
+  id: 'a01',
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
   rating:
@@ -8,6 +9,7 @@ const products = [{
   },
   priceCent: 999
 }, {
+  id: 'a02',
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
   rating:{
@@ -17,6 +19,7 @@ const products = [{
 priceCent: 1500
 },
 {
+  id: 'a03',
   name: 'Bag',
   image: 'images/products/backpack.jpg',
   rating:{
@@ -26,6 +29,7 @@ priceCent: 1500
 priceCent: 4550
 },
 {
+  id: 'a04',
   name: 'PLAM',
   image: 'images/shoe/slippers2.png',
   rating:{
@@ -35,6 +39,7 @@ priceCent: 4550
 priceCent: 3550
 },
 {
+  id: 'a05',
   name: 'HalfShoe',
   image: 'images/shoe/halfshoe2.jpg',
   rating:{
@@ -43,6 +48,7 @@ priceCent: 3550
   },
 priceCent: 4550
 },{
+  id: 'a06',
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
   rating:
@@ -52,6 +58,7 @@ priceCent: 4550
   },
   priceCent: 999
 }, {
+  id: 'a07',
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
   rating:{
@@ -61,6 +68,7 @@ priceCent: 4550
 priceCent: 1500
 },
 {
+  id: 'a08',
   name: 'Bag',
   image: 'images/products/backpack.jpg',
   rating:{
@@ -70,6 +78,7 @@ priceCent: 1500
 priceCent: 4550
 },
 {
+  id: 'a09',
   name: 'PLAM',
   image: 'images/shoe/slippers2.png',
   rating:{
@@ -79,6 +88,7 @@ priceCent: 4550
 priceCent: 3550
 },
 {
+  id: 'a10',
   name: 'HalfShoe',
   image: 'images/shoe/halfshoe2.jpg',
   rating:{
@@ -87,6 +97,7 @@ priceCent: 3550
   },
 priceCent: 4550
 },{
+  id: 'a11',
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
   rating:
@@ -96,6 +107,7 @@ priceCent: 4550
   },
   priceCent: 999
 }, {
+  id: 'a12',
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
   rating:{
@@ -105,6 +117,7 @@ priceCent: 4550
 priceCent: 1500
 },
 {
+  id: 'a13',
   name: 'Bag',
   image: 'images/products/backpack.jpg',
   rating:{
@@ -114,6 +127,7 @@ priceCent: 1500
 priceCent: 4550
 },
 {
+  id: 'a14',
   name: 'PLAM',
   image: 'images/shoe/slippers2.png',
   rating:{
@@ -123,6 +137,7 @@ priceCent: 4550
 priceCent: 3550
 },
 {
+  id: 'a15',
   name: 'HalfShoe',
   image: 'images/shoe/halfshoe2.jpg',
   rating:{

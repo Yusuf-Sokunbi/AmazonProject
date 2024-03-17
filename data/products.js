@@ -7,7 +7,7 @@
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   id: 'a02',
   name: 'Sock',
@@ -16,7 +16,7 @@
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   id: 'a03',
@@ -26,7 +26,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   id: 'a04',
@@ -36,7 +36,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   id: 'a05',
@@ -46,7 +46,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 },{
   id: 'a06',
   name: 'Shoemaking',
@@ -56,7 +56,7 @@ priceCent: 4550
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   id: 'a07',
   name: 'Sock',
@@ -65,7 +65,7 @@ priceCent: 4550
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   id: 'a08',
@@ -75,7 +75,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   id: 'a09',
@@ -85,7 +85,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   id: 'a10',
@@ -95,7 +95,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 },{
   id: 'a11',
   name: 'Shoemaking',
@@ -105,7 +105,7 @@ priceCent: 4550
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   id: 'a12',
   name: 'Sock',
@@ -114,7 +114,7 @@ priceCent: 4550
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   id: 'a13',
@@ -124,7 +124,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   id: 'a14',
@@ -134,7 +134,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   id: 'a15',
@@ -144,7 +144,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 },{
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
@@ -153,7 +153,7 @@ priceCent: 4550
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
@@ -161,7 +161,7 @@ priceCent: 4550
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   name: 'Bag',
@@ -170,7 +170,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   name: 'PLAM',
@@ -179,7 +179,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   name: 'HalfShoe',
@@ -188,7 +188,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 },{
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
@@ -197,7 +197,7 @@ priceCent: 4550
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
@@ -205,7 +205,7 @@ priceCent: 4550
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   name: 'Bag',
@@ -214,7 +214,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   name: 'PLAM',
@@ -223,7 +223,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   name: 'HalfShoe',
@@ -232,7 +232,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 },{
   name: 'Shoemaking',
   image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
@@ -241,7 +241,7 @@ priceCent: 4550
     stars: 4.5,
     count: 87
   },
-  priceCent: 999
+  priceCents: 999
 }, {
   name: 'Sock',
   image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
@@ -249,7 +249,7 @@ priceCent: 4550
     stars: 5.0,
     count: 90
   },
-priceCent: 1500
+priceCents: 1500
 },
 {
   name: 'Bag',
@@ -258,7 +258,7 @@ priceCent: 1500
     stars: 4.0,
     count: 80
   },
-priceCent: 4550
+priceCents: 4550
 },
 {
   name: 'PLAM',
@@ -267,7 +267,7 @@ priceCent: 4550
     stars: 4.5,
     count: 85
   },
-priceCent: 3550
+priceCents: 3550
 },
 {
   name: 'HalfShoe',
@@ -276,7 +276,7 @@ priceCent: 3550
     stars: 3.0,
     count: 65
   },
-priceCent: 4550
+priceCents: 4550
 }
 ];
 

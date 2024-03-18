@@ -30,8 +30,8 @@ products.forEach((product)=>{
             $${formatCurrency(product.priceCents)}
           </div>
 
-          <div class="product-quantity-container">
-            <select>
+          <div class="product-quantity-container ">
+            <select class="js-quantity-selector-${product.id}">
               <option selected value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -61,8 +61,7 @@ products.forEach((product)=>{
 });
 
 
-
-function updateCartQuantity() {
+ function updateCartQuantity() {
   let cartQuantity = 0;
   cart.forEach((cartItem) => {
    cartQuantity += cartItem.quantity

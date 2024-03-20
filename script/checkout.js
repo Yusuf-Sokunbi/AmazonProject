@@ -1,13 +1,11 @@
-import { cart, removeFromCart } from "../data/cart.js";
+import { cart, removeFromCart, updateDeliveryOption } from "../data/cart.js";
 import { products } from "../data/products.js";
 import { formatCurrency } from "../util/money.js";
 import dayjs from "https://unpkg.com/dayjs@1.11.10/esm/index.js"
 import { deliveryOptions } from "../data/deliveryOption.js";
- const today = dayjs();
-const deliveryDay = today.add(7, 'day');
-console.log(deliveryDay);
-console.log(deliveryDay.format('dddd MMMM D'))
-console.log('out');
+
+
+ function renderOrderSummaryHTML() {
  let cartSummaryHTML = '';
  cart.forEach((cartItem) => {
  const productId = cartItem.productId
@@ -29,10 +27,9 @@ console.log('out');
   });
   
   const today = dayjs();
-  const deliveryDate = today.add
-  (deliveryOption.deliveryDays, 'days');
+  const deliveryDate = today.add(deliveryOption.deliveryDays, 'days');
 
-  const dateString = deliveryDate.format('dddd, MMMM, D')
+  const dateString = deliveryDate.format('dddd, MMMM, D');
 
   cartSummaryHTML += `
   <div class="cart-item-container 
@@ -66,7 +63,7 @@ console.log('out');
       </div>
     </div>
 
-    <div class="delivery-options">
+    <div class="delivery-options js-delivery-option">
       ${deliveryOptionsHTML(matchingProduct, cartItem)}
     </div>
   </div>
@@ -91,8 +88,12 @@ console.log('out');
   
    const isChecked = deliveryOption.id === 
       cartItem.deliveryOptionId;
+
+
   html += `
-  <div class="delivery-option">
+  <div class="delivery-option js-delivery-option"
+  data-product-id="${matchingProduct.id}"
+  data-delivery-option-id="${deliveryOption.id}">
   <input type="radio"
     ${isChecked ? 'checked' : ''}
     class="delivery-option-input"
@@ -130,6 +131,18 @@ link.addEventListener('click', () => {
   console.log(cart)
 })
 })
-document.querySelector('.js-item-quantity').
-innerHTML = cartQuantity
-// console.log(updateCartQuantity(carttQuantity));
+// document.querySelector('.js-item-quantity').
+// innerHTML = cartQuantity
+
+
+document.querySelectorAll('.js-delivery-option').forEach((element)=>{
+ element.addEventListener('click', () => {
+  const {productId, deliveryOptionId} = element.dataset;
+  updateDeliveryOption(productId, deliveryOptionId);
+  renderOrderSummaryHTML();
+  console.log('option');
+ })
+})
+ }
+
+ renderOrderSummaryHTML();
